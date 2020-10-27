@@ -6,7 +6,7 @@ font-family:sans-serif;
 #header{
 			background:url("../images/a.jpg");
 			height:133px;
-			width:100%;
+			width:360px;
 			background-size:360px;
 			background-attachment:fixed;		
 			position:fixed;

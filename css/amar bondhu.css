@@ -40,10 +40,11 @@ font-family:sans-serif;
 				}
 .logo{
 			margin-top:8px;
-			paddig-top:50px;	
+			paddig-top:50px;
+	margin-left:5px;
       } 
 .te{
-			margin-left:0px;
+			margin-left:5px;
 			margin-top:-12px;
 			font-size:17px	;
 			width:200px;		

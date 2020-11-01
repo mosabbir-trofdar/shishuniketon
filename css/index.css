@@ -26,6 +26,7 @@ font-family:sans-serif;
 				height:139px;
 				background:url("../images/wav.jpg");
 				opacity:.4;
+	animation: animate 3s linear infinite;
 				}	
 		
 @keyframes animate{

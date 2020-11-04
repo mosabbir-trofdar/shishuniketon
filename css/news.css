@@ -102,7 +102,7 @@ img{
 				
 				}
 .channel{				
-				margin-top:410px;			
+				margin-top:480px;			
 				margin-left:0px;				 
 				background-color:white;				
 				position: fixed;							
@@ -113,7 +113,9 @@ img{
 	  letter-spacing:1px;				               
 	  margin-top:-5px;		
 	  		}
-   		
+.channel img{
+				margin-left:15px;		
+				}		
 .slider{
 				max-width:320px;
 				margin-top:10px;

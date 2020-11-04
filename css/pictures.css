@@ -1,0 +1,263 @@
+*{
+margin:0;
+padding:0;				
+font-family:sans-serif;				
+				}		
+.head{
+			background:url("../images/a.jpg");
+			height:133px;
+			width:360px;
+			background-size:360px;
+			background-attachment:fixed;
+			position:fixed;
+				}		
+.wave{
+				position: absolute;
+				width:360px;
+				height:139px;
+				background:url("../images/wav.jpg");
+				animation: animate 5s linear infinite;
+				}		
+.wave:before{
+				content:"";
+				position: absolute;
+				width:360px;
+				height:139px;
+				background:url("../images/wav.jpg");
+				opacity:.4;
+				animation: animate 3s linear infinite;
+				}	
+		
+@keyframes animate{
+				0%{
+						background-position:0;			
+								}
+				100%{
+						background-position:360;			
+								}
+				}							
+.container{
+			margin-left:80px;	
+				}
+.logo{
+			margin-top:8px;
+			paddig-top:50px;	
+      } 
+.te{
+			margin-left:0px;
+			margin-top:-12px;
+			font-size:17px	;
+			width:200px;		
+			letter-spacing:2px;	
+				}         
+#slided{
+			background:url("../images/oh.png");
+			height:185px;
+			position:fixed;
+			width:360px;
+			padding-left:40px;
+			margin-left:0px;
+			z-index:2;
+			transition:.5s;
+				}
+#slided h4{
+				margin-top:10px;
+				margin-bottom:7px;
+				margin-left:48px;
+				}						
+#slided p{
+		  	word-spacing:30px;
+  			margin-left:50px;
+				}
+#slided p a{
+				text-decoration:none;
+				color:white;	
+				}
+#menuBtn{
+				
+			position:fixed;
+			top:40px;
+			left:30px;	
+			z-index:2;
+				}
+#pic{
+			margin-top:20px;	
+			margin-left:20px;	
+			margin-bottom:20px;
+				}   
+      
+#f6{			
+		margin-top:2px;
+		letter-spacing:0px;
+		margin-left:43px;
+				}	
+#f6 a{
+				text-decoration:none;
+				color:black;
+				font-size:16px;
+				margin-top:-2px;
+				margin-left:9px;
+				}				
+#f7{
+			margin-top:-5px;	
+			margin-bottom:8px;	
+			color:black;
+			margin-left:32px;
+				}
+
+#f62{			
+		margin-top:8px;
+		letter-spacing:0px;
+		margin-left:44px;
+		}
+
+ 
+
+
+@media only screen and (min-width:768px){	
+.head{
+			background:url("../images/apc.png");
+			height:378px;
+			width:100%;
+			background-attachment:fixed;
+			position:fixed;
+				}		
+.wave{
+				position: absolute;
+				height:385px;
+	  		width:100%;
+				background:url("../images/wavpc.png");
+				animation: animate 5s linear infinite;
+				}		
+.wave:before{
+				content:"";
+				position: absolute;
+				height:385px;
+	  		width:100%;
+				background:url("../images/wavpc.png");
+				opacity:.4;
+				animation: animate 3s linear infinite;
+				}	
+		
+@keyframes animate{
+				0%{
+						background-position:0;			
+								}
+				100%{
+						background-position:990;			
+								}
+				}							
+.container{
+			margin-left:240px;	
+			margin-top:20px;
+				}
+.logo{
+			margin-top:8px;
+			paddig-top:50px;	
+			width:90px;
+			height:90px;
+      } 
+.te{
+			margin-left:0px;
+			margin-top:-19px;
+			font-size:50px	;
+			width:1800px;		
+			letter-spacing:5px;	
+				}         
+#slided{
+			background:#5dc6ff;
+			height:220px;
+			position:fixed;
+			width:100%;
+			padding-left:40px;
+			margin-left:0px;
+			z-index:2;
+			transition:.5s;
+				}
+#slided h4{	
+				margin-top:15px;
+				margin-bottom:10px;
+				margin-left:225px;
+				font-size:35px	;
+				}						
+#slided p{
+		  	word-spacing:30px;
+  			margin-left:270px;
+  			font-size:30px	;
+				}
+#slided p a{
+				text-decoration:none;
+				color:white;	
+				}
+#menuBtn{	
+			position:fixed;
+			top:110px;
+			left:88px;	
+			z-index:2;
+			width:100px;
+			height:100px;
+				}		
+#f6{			
+		display:flex;		
+		margin-top:10px;
+		letter-spacing:0px;
+		margin-left:235px;		
+				}	
+#f6 a{
+				text-decoration:none;
+				color:black;
+				font-size:36px;
+				margin-top:-2px;
+				margin-left:15px;
+				}				
+#f7{
+			margin-top:-10px;	
+			margin-bottom:8px;	
+			color:black;
+			margin-left:210px;
+			width:480px;
+				}
+#f62{			
+		display:flex;	
+		margin-top:50px;
+		letter-spacing:0px;
+		margin-left:-335px;
+		}				
+#picture{
+			margin-top:5px;	
+			width:90px;	
+				}				
+#himg{
+			margin-left:20px;	
+			margin-top:250px;
+			width:300px;
+				}			
+#sec1{
+				display:flex;
+				}			
+#sec2{
+				display:flex;
+				}					
+#sec3{
+				display:flex;
+				}					
+#sec4{
+				display:flex;
+				}					
+#sec5{
+				display:flex;
+				}													
+#pic img{
+				margin-top:10px;
+				width:210px;
+				margin-left:20px;
+				}							
+#pic h5{
+				padding-left:30px;
+				}
+#pic P{
+				padding-left:30px;
+				}
+
+						
+}

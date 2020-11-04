@@ -91,7 +91,7 @@ font-family:sans-serif;
 				margin-top:18px;
 				} 				 				
 #audio{
-				margin-top:-66px;
+				margin-top:-80px;
 				margin-left:158px;
 				} 	
 #video{
@@ -103,7 +103,7 @@ font-family:sans-serif;
 				margin-left:15px;
 				} 												
 #info{
-				margin-top:-57px;
+				margin-top:-80px;
 				margin-left:165px;
 				}  				
 p{	
@@ -300,7 +300,7 @@ p{
 				}
 #lo{
  				align:right;
- 				margin-top:-32px;
+ 				margin-top:-42px;
  				margin-left:293px;
  				}				   		
  					
@@ -457,12 +457,12 @@ p{
 				width:250px;			
 				} 
 #main #video{
-				margin-top:-83px;
+				margin-top:-93px;
 				margin-left:480px;
 				width:200px;			
 				}   
 #main #audio{
-			 margin-top:-155px;
+			 margin-top:-175px;
 				margin-left:650px;
 				width:240px;			
 				}  	
@@ -477,7 +477,7 @@ p{
 				width:260px;							
 				}				
 #info{
-			 margin-top:-137px;
+			 margin-top:-157px;
 				margin-left:430px;
 				width:280px;							
 				}						
@@ -623,7 +623,7 @@ p{
 				}
 #lo{
  				align:right;
- 				margin-top:-32px;
+ 				margin-top:-42px;
  				margin-left:803px;
  				}				   		
 #f9{

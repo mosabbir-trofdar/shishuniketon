@@ -350,7 +350,7 @@ p{
 				animation-fill-mode:forwards;
 				}				
 #loader img{
-				width:980px;
+				width:100%;
 				}				
 @keyframes slide-up{
 				99%{

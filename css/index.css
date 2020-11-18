@@ -343,7 +343,7 @@ p{
 			background-size:100%;
 				}					
 #loader{
-				margin-top:55px;
+				margin-top:-100px;
 		  position:fixed;
 				z-index:2;
 				animation:slide-up 1.5s;
@@ -351,6 +351,7 @@ p{
 				}				
 #loader img{
 				width:100%;
+	margin-top:-160px;
 				}				
 @keyframes slide-up{
 				99%{
